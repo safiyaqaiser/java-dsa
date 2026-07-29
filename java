@@ -87,6 +87,33 @@ public class Main {
         }
 
     }
+5 ARRAY SECOND LARESGT [use two variable]
+ public class Main {
+    public static void main(String[] args) {
+        int a[]={10,20,30,50};
+        int l=a[0];
+        int sl=a[0];
+        for(int i=1;i<a.length;i++){
+        if(l<a[i]){
+            sl=l;
+            l=a[i];
+
+
+        }
+
+
+
+        }
+
+        System.out.println("second largest"+sl);
+
+    }
+
+    }
+
+
+
+
 
 
 
