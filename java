@@ -67,6 +67,27 @@ public class Main {
         }
     }
 }
+4. string linear search with input 
+ import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        String a[]={"aa","bb","cc"};
+        Scanner s=new Scanner(System.in);
+        System.out.println("enter your string ");
+         String target=s.nextLine();
+
+        for(int i=0;i<a.length;i++){
+            if(target.equals(a[i]) ){
+                System.out.println(i);
+                System.out.println("target");
+            }
+
+            }
+
+        }
+
+    }
+
 
 
 
