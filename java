@@ -110,6 +110,64 @@ public class Main {
     }
 
     }
+6.two pointer 
+ public class Main {
+    public static void main(String[] args) {
+     int a[]={10,20,30,40,50};
+     int l=0;
+     int r=a.length-1;
+     while(l<r) {
+         int empty=a[l];
+         a[l]=a[r];
+         a[r]=empty;
+         l++;
+         r--;
+     }
+     for(int i=0;i<a.length;i++){
+         System.out.print(a[i]+" ");
+     }
+     }
+    }
+7 reversing and finding middle element [if u want divide like find the middle then   int m=a[a.length/2];]
+ public class Main {
+    public static void main(String[] args) {
+        int a[] = {10, 20, 30, 40, 50};
+        int l = 0;
+        int r = a.length - 1;
+        while (l < r) {
+            int empty = a[l];
+            a[l] = a[r];
+            a[r] = empty;
+            l++;
+            r--;
+        }
+        int m=a[a.length/2];
+
+            for (int i = 0; i < a.length; i++) {
+
+                System.out.println(a[i]);
+
+
+
+
+        }
+        System.out.println(m);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
