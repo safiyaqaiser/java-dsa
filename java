@@ -233,6 +233,45 @@ public class Main {
             }
         }
     }}
+13 public class Main {
+    public static void main(String[] args) {
+        int a[] = {1, 2, 3, 4, 5};
+        int target = 4;
+        int l = 0;
+        int r = a.length - 1;
+
+
+       while(l<=r){
+           int mid = (l + r) / 2;
+            if (target == a[mid]) {
+                System.out.println("found"+mid);
+               return;
+
+            }
+
+            if (target > a[mid]) {
+               l= mid+1;
+
+
+
+            }
+            else{
+               r= mid-1;
+            }
+
+
+        }
+        System.out.println("target not found");
+
+
+    }
+❌ You compared target == mid.
+✅ Then you changed it to target == a[mid].
+❌ You used mid++.
+✅ Then you changed it to mid + 1.
+❌ You forgot to update mid.
+✅ Then you moved mid inside the while.
+
 
 
 
