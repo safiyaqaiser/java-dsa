@@ -177,6 +177,25 @@ public class Main {
         System.out.println(sum);
         System.out.println(avg);
     }}
+10 count even and odd 
+ public class Main {
+    public static void main(String[] args) {
+        int a[] = {1, 2, 3, 4,5};
+        int e=0;
+        int odd=0;
+
+        for(int i=0;i<a.length;i++){
+            if(a[i]%2==0){
+                e++;
+            }
+            else{
+                odd++;
+            }
+        }
+        System.out.println(e);
+        System.out.println(odd);
+    }}
+
 
 
 
