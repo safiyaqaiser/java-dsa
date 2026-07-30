@@ -195,6 +195,37 @@ public class Main {
         System.out.println(e);
         System.out.println(odd);
     }}
+11 find smallest and largest
+ public class Main {
+    public static void main(String[] args) {
+        int a[] = {1, 2, 3, 4,5};
+        int l=a[0];
+        int s=a[0];
+
+        for(int i=0;i<a.length;i++){
+            if(a[i]>l){
+                l=a[i];
+            }
+            if(a[i]<s){
+                s=a[i];
+            }
+
+
+
+        }
+        System.out.println(l);
+        System.out.println(s);
+    }}
+
+
+
+
+
+
+
+
+
+
 
 
 
