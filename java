@@ -164,6 +164,20 @@ public class Main {
         }
         System.out.println(sum);
     }}
+9.sum and avg
+ public class Main {
+    public static void main(String[] args) {
+        int a[] = {1, 2, 3, 4};
+        int sum=0;
+        int avg=0;
+        for(int i=0;i<a.length;i++){
+            sum+=a[i];
+             avg=sum/2;
+        }
+        System.out.println(sum);
+        System.out.println(avg);
+    }}
+
 
 
 
